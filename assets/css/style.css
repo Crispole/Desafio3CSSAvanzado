@@ -112,6 +112,11 @@ body {
     text-align: center;
 }
 
+.cards {
+    display: flex;
+
+}
+
 .info {
     display: flex;
     flex-direction: row;
@@ -125,7 +130,7 @@ body {
 
 .price {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 500px;
     color: red;
 }
 
