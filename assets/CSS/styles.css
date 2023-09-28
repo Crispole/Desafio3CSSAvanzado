@@ -33,6 +33,11 @@
    color: #BFBFBF;
 }
 
+.bars {
+   display: flex;
+   justify-content: end;
+}
+
 .filtro {
    grid-area: filtro;
    padding: 10px;
@@ -204,7 +209,7 @@ color: white;
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
    div {
       grid-template-columns: 2fr 10fr;
       grid-template-areas: 
